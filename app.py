@@ -10,4 +10,4 @@ def index(request):
 
 @asyncio.coroutine
 def init(loop):
-	app = 
+	app = web.Application
